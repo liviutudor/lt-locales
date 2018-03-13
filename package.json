@@ -1,14 +1,13 @@
 {
   "name": "lt-locales",
   "version": "0.0.1",
-  "description": "Another locales packages by Liv Tudor",
+  "description": "Liviu Tudor's locale package. This package was written to allow locales such as `zh-Hant-TW` -- i.e. include the script in the locale string.",
   "main": "index.js",
   "entry point": "index.js",
   "scripts": {
     "test": "npm run test:unit",
     "test:unit": "jest",
-    "test:unit:watch": "jest --watch",
-    "build": "node src/build.js"
+    "test:unit:watch": "jest --watch"
   },
   "jest": {
     "verbose": true,
@@ -23,10 +22,9 @@
       "text-summary"
     ]
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "jest": "^22.1.4"
+    "jest": "^22.4"
   },
   "author": "~liviutudor",
   "license": "Apache-2.0"
