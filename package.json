@@ -1,0 +1,33 @@
+{
+  "name": "lt-locales",
+  "version": "0.0.1",
+  "description": "Another locales packages by Liv Tudor",
+  "main": "index.js",
+  "entry point": "index.js",
+  "scripts": {
+    "test": "npm run test:unit",
+    "test:unit": "jest",
+    "test:unit:watch": "jest --watch",
+    "build": "node src/build.js"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "index.js"
+    ],
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "html",
+      "text-summary"
+    ]
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jest": "^22.1.4"
+  },
+  "author": "~liviutudor",
+  "license": "Apache-2.0"
+}
