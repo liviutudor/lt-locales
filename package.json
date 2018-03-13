@@ -1,6 +1,6 @@
 {
   "name": "lt-locales",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Liviu Tudor's locale package. This package was written to allow locales such as `zh-Hant-TW` -- i.e. include the script in the locale string.",
   "main": "index.js",
   "entry point": "index.js",
@@ -29,5 +29,9 @@
   "author": "~liviutudor",
   "license": "Apache-2.0",
   "homepage": "https://github.com/liviutudor/lt-locales",
-  "keywords": ["locale", "language", "country"]
+  "keywords": ["locale", "language", "country"],
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/liviutudor/lt-locales.git"
+  }
 }
