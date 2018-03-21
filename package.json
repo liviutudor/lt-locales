@@ -1,6 +1,6 @@
 {
   "name": "lt-locales",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Liviu Tudor's locale package. This package was written to allow locales such as `zh-Hant-TW` -- i.e. include the script in the locale string.",
   "main": "index.js",
   "entry point": "index.js",
